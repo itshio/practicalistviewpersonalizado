@@ -51,9 +51,9 @@ public class Adaptadorcoche extends ArrayAdapter<Coche> {
 
         int idimagen = c.getResources().getIdentifier(imagen,"drawable",c.getPackageName());
 
-        ImageView iv_logo = (ImageView)item.findViewById(R.id.item_imagencoche);
+        ImageView iv_imagen = (ImageView)item.findViewById(R.id.item_imagencoche);
 
-        iv_logo.setImageResource(idimagen);
+        iv_imagen.setImageResource(idimagen);
 
 
         return item;

@@ -9,7 +9,7 @@ public class Coche {
     String marca;
     String modelo;
     String imagen;
-    Double precio;
+    double precio;
 
     public Coche(String marca, String modelo, String imagen, Double precio) {
         this.marca = marca;
